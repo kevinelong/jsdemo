@@ -142,3 +142,32 @@ years = 72 / IR;
 // and https://en.wikipedia.org/wiki/Rule_of_72
 console.log(years);
 
+//EXERCISE 1 PT 1 SECTION 2-19 PAGE 67
+f_input = 100
+c_output = (f_input - 32) * ( 5 / 9 )
+console.log(c_output.toFixed(1))
+
+//EXERCISE 1 PT 2 SECTION 2-19 PAGE 67
+c_input = 38
+f_output = (c_input * ( 9 / 5 )) + 32
+console.log(f_output.toFixed(1))
+
+//EXERCISE 1 PT 3 SECTION 2-19 PAGE 67
+federalTaxRate = 0.23
+monthlySalary = 10000
+withheldTaxAmount = monthlySalary * federalTaxRate
+console.log(withheldTaxAmount)
+
+
+//EXERCISE 1 PT 4 SECTION 2-19 PAGE 67
+// distance using pythagorean theorem
+x1 = 30
+y1 = 30
+
+x2 = 20
+y2 = 20
+
+d = Math.sqrt( Math.pow(x2-x1,2) + Math.pow(y2-y1, 2) );
+console.log(d)
+// 10 over and 10 down yields 14.142135623730951
+
